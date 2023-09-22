@@ -21,9 +21,14 @@
     "noFallthroughCasesInSwitch": true,
 
     /* Absoloute path */
-    "baseUrl": "./",
+    "baseUrl": "./src/",
     "paths": {
-      "Contexts/*": ["src/contexts/*"]
+      "Components/*": ["components/*"],
+      "Constants/*": ["constants/*"],
+      "Contexts/*": ["contexts/*"],
+      "Hooks/*": ["hooks/*"],
+      "Images/*": ["images/*"],
+      "utils/*": ["utils/*"]
     }
   },
   "include": ["src"],
