@@ -7,7 +7,6 @@ const ALIASES = {
   Constants: resolve(__dirname, "./src/constants"),
   Contexts: resolve(__dirname, "./src/contexts"),
   Hooks: resolve(__dirname, "./src/hooks"),
-  Images: resolve(__dirname, "./src/images"),
   Utils: resolve(__dirname, "./src/utils"),
 };
 

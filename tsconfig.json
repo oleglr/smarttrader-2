@@ -27,8 +27,7 @@
       "Constants/*": ["constants/*"],
       "Contexts/*": ["contexts/*"],
       "Hooks/*": ["hooks/*"],
-      "Images/*": ["images/*"],
-      "utils/*": ["utils/*"]
+      "Utils/*": ["utils/*"]
     }
   },
   "include": ["src"],
