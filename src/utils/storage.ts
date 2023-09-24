@@ -5,7 +5,7 @@ export const setToStorage = <T>(key: string, data: T) => {
   return true;
 };
 
-export const getFromStorage = (key: string) => {
+export const getFromStorage = <T>(key: string): T => {
   const data = localStorage.getItem(key) || "";
   return JSON.parse(data);
 };

@@ -1,3 +1,3 @@
-const clock = () => <div>clock</div>;
+const Clock = () => <div>Clock</div>;
 
-export default clock;
+export default Clock;
