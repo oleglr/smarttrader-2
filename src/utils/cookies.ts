@@ -1,7 +1,6 @@
-export const getCookiesObject = (cookies) => {};
+// src/utils/cookies.ts
 
-export const getDataObjFromCookies = (cookies, fields) => {};
-
-export const getDataLink = (data) => {};
-
-export const getCookiesFields = () => [];
+export const exampleFunction = (_cookies: any, _fields: any) => {
+    const _data = {}; // Используйте `_` для неиспользуемых переменных
+    return _data;
+  };

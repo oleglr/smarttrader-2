@@ -14,5 +14,18 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      {
+        argsIgnorePattern: '^_',
+      },
+    ],
+    '@typescript-eslint/ban-ts-comment': [
+      'warn',
+      {
+        'ts-ignore': 'allow-with-description',
+      },
+    ],
   },
-}
+};
